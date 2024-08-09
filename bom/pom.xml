@@ -100,6 +100,26 @@
                 <artifactId>helidon-grpc-core</artifactId>
                 <version>${helidon.version}</version>
             </dependency>
+            <dependency>
+                <groupId>io.helidon.grpc</groupId>
+                <artifactId>helidon-grpc-api</artifactId>
+                <version>${helidon.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.helidon.microprofile.grpc</groupId>
+                <artifactId>helidon-microprofile-grpc-core</artifactId>
+                <version>${helidon.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.helidon.microprofile.grpc</groupId>
+                <artifactId>helidon-microprofile-grpc-server</artifactId>
+                <version>${helidon.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.helidon.microprofile.grpc</groupId>
+                <artifactId>helidon-microprofile-grpc-tracing</artifactId>
+                <version>${helidon.version}</version>
+            </dependency>
             <!-- Micronaut integrations -->
             <dependency>
                 <groupId>io.helidon.integrations.micronaut</groupId>
@@ -180,6 +200,16 @@
             <dependency>
                 <groupId>io.helidon.config</groupId>
                 <artifactId>helidon-config-metadata-processor</artifactId>
+                <version>${helidon.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.helidon.config.metadata</groupId>
+                <artifactId>helidon-config-metadata-codegen</artifactId>
+                <version>${helidon.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.helidon.config.metadata</groupId>
+                <artifactId>helidon-config-metadata-docs</artifactId>
                 <version>${helidon.version}</version>
             </dependency>
             <!-- security -->
@@ -761,6 +791,11 @@
             <dependency>
                 <groupId>io.helidon.integrations.db</groupId>
                 <artifactId>helidon-integrations-db-mysql</artifactId>
+                <version>${helidon.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.helidon.integrations.db</groupId>
+                <artifactId>helidon-integrations-db-pgsql</artifactId>
                 <version>${helidon.version}</version>
             </dependency>
             <dependency>
@@ -1418,12 +1453,24 @@
             <!-- Service registry -->
             <dependency>
                 <groupId>io.helidon.service</groupId>
+                <artifactId>helidon-service-metadata</artifactId>
+                <version>${helidon.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.helidon.service</groupId>
                 <artifactId>helidon-service-registry</artifactId>
                 <version>${helidon.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.helidon.service</groupId>
                 <artifactId>helidon-service-codegen</artifactId>
+                <version>${helidon.version}</version>
+            </dependency>
+
+            <!-- Metadata -->
+            <dependency>
+                <groupId>io.helidon.metadata</groupId>
+                <artifactId>helidon-metadata-hson</artifactId>
                 <version>${helidon.version}</version>
             </dependency>
 
